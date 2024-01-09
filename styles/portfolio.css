@@ -1,24 +1,187 @@
-.about{
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.section-styles{
+    padding: 130px;
+}
+
+.about {
     padding: 130px;
     border-radius: 16px;
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+/* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+margin: 50px 150px 50px ;
+background: linear-gradient(#070211, #07021100)
 
 }
-.section-title{
-    color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: 95px; /* 131.944% */
+
+.header {
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    
 }
-.section{
+
+.section-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    
+}
+
+.section {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    }
+    /* main section */
+    .about-2{
+        padding: 130px;
+        background: #FFF;
+        text-align: center;
+        width: 1500px;
+    }
+    .section-2{
+        color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 88px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+       
+    }
+    .section-title-2{
+        color: #F00;
+        text-align: center;
+       
+        font-size: 24px;
+        
+        font-weight: 500;
+    }
+       
+    .section-description{
+        color: #070211;
+        text-align: center;
+       
+        font-size: 48px;
+        
+        font-weight: 700;
+       
+    }
+    .section-description-2{
+        
+        width: 802.9px;
+height: 500px;
+
+    }
+  .button{
     color: #FFF;
 text-align: center;
-font-family: Merriweather;
-font-size: 32px;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+  }
+  .paragraph{
+    /* color: rgba(255, 255, 255, 0.80); */
+font-family: Inter;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 30px; /* 166.667% */
+  }
+  .welcome{
+    /* color: #FFF; */
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+  }
+  .header-2{
+    background-image: url('../images/Vectorrr.png');
+    /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    width: 1320px;
+height: 600px;
+
+
+   
+  }
+  .image{
+    display: flex;
+width: 319.83px;
+height: 464.662px;
+padding: 0.008px 0px 0px 0px;
+justify-content: right;
+align-items: center;
+flex-shrink: 0;
+
+  }
+  /* <!-- place new park hotle section  --> */
+
+  .place-new-park{
+    width: 1300px;
+    height: 300px;
+   
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+.place-date-time{
+    
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+   padding-top: 30px;
+   padding-bottom: 114px;
+    
+
 }
+
+  .place{
+    color: #F00;
+  }
+  
+  .date{
+    color: #F00;
+  }
+
+  .time{
+    color: #F00;
+    
+  }
+  .join-now{
+    color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+  }
+  .button-join-now{
+    padding: 16px 32px;
+    align-items: center;
+    
+    padding-top: 64px;
+    padding-bottom: 126px;
+    
+    /* background: #F00; */
+}
+
+.place-date-time h6{
+
+    margin: 0;
+    font-size: 32px;
+}
+/* new best offer section  */
+
+.new-best-offer{
+display: flex;
+}
+
